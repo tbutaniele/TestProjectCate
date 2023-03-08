@@ -41,6 +41,7 @@ public class RSATest {
 		Driver.findElement(By.id("PIN")).sendKeys("0808");
 		Driver.findElement(By.id("LinkButton1")).click();
 		Thread.sleep(4800);
+		Thread.sleep(2000);
 		
 		try{
 		Alert alert14=Driver.switchTo().alert();
