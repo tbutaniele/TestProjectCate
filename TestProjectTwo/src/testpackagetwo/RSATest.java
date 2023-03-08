@@ -42,6 +42,7 @@ public class RSATest {
 		Driver.findElement(By.id("LinkButton1")).click();
 		Thread.sleep(4800);
 		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		try{
 		Alert alert14=Driver.switchTo().alert();
