@@ -7,7 +7,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-import org.junit.Assert;
+//import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -26,6 +26,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class CHDTest {
 	
 	public static WebDriver Driver;
@@ -33,7 +35,8 @@ public class CHDTest {
 	@Test(priority=1)
 	public void CHDdata()throws Exception{
 		
-		System.setProperty("webdriver.edge.driver", "C:\\Edgedriver\\msedgedriver.exe");
+		WebDriverManager.edgedriver().setup();
+		//System.setProperty("webdriver.edge.driver", "C:\\Edgedriver\\msedgedriver.exe");		
 		WebDriver Driver = new EdgeDriver();
 		Driver.get("http://10.30.139.92/PivotPointV2Web/Login.aspx");
 		Driver.manage().window().maximize();

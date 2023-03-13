@@ -32,8 +32,8 @@ public class RSATest {
 	@Test(priority=1)
 	public void RSAdata()throws Exception{
 		
-		//System.setProperty("webdriver.edge.driver", "C:\\Edgedriver\\msedgedriver.exe");
 		WebDriverManager.edgedriver().setup();
+		//System.setProperty("webdriver.edge.driver", "C:\\Edgedriver\\msedgedriver.exe");		
 		WebDriver Driver=new EdgeDriver();
 		Driver.get("http://10.30.139.92/PivotPointV2Web/Login.aspx");
 		Driver.manage().window().maximize();
