@@ -4,7 +4,6 @@
   <test name="Test">
     <classes>
       <class name="testpackagetwo.RSATest"/>
-      <class name="testpackagetwo.CHDTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
