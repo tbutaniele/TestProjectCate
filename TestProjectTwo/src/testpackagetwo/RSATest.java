@@ -57,7 +57,7 @@ public class RSATest {
 		}
 		
 	    Driver.findElement(By.id("Board1_ADDCONTRACT")).click();
-		Thread.sleep(4500);
+		Thread.sleep(8000);
 		//Driver.findElement(By.xpath("//table/tbody/tr[]/td[]")).click();
 		
 		//Programme Information
