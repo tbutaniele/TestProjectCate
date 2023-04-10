@@ -250,7 +250,7 @@ public class RSATest {
 		WebElement chooseFile=Driver.findElement(By.id("UploadFile"));
 		act02.moveToElement(chooseFile).click().perform();
 		Thread.sleep(5800);
-		uploadFile("C:\\Users\\tbutani\\Documents\\New folder\\Complete RSA end to end testing.xlsx");		
+		uploadFile("C:\\Users\\tbutani\\Documents\\TestData\\Complete RSA end to end testingOne.xlsx");		
 		Thread.sleep(5800);
 		Driver.findElement(By.id("Upload")).click();		
 		Thread.sleep(11000);		
@@ -277,7 +277,7 @@ public class RSATest {
 		WebElement chooseFile01=Driver.findElement(By.id("UploadFile"));
 		act04.moveToElement(chooseFile01).click().perform();
 		Thread.sleep(5800);
-		uploadFile("C:\\Users\\ssingh\\Documents\\New folder\\Complete RSA end to end testing.xlsx");		
+		uploadFile("C:\\Users\\tbutani\\Documents\\TestData\\Complete RSA end to end testingOne.xlsx");		
 		Thread.sleep(5800);
 		Driver.findElement(By.id("Upload")).click();		
 		Thread.sleep(11000);		
