@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="442771" started-at="2023-03-13T16:37:37Z" finished-at="2023-03-13T16:45:00Z">
+  <suite name="Default suite" duration-ms="599268" started-at="2023-05-09T07:00:03Z" finished-at="2023-05-09T07:10:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="442771" started-at="2023-03-13T16:37:37Z" finished-at="2023-03-13T16:45:00Z">
+    <test name="Default test" duration-ms="599268" started-at="2023-05-09T07:00:03Z" finished-at="2023-05-09T07:10:02Z">
       <class name="testpackagetwo.RSATest">
-        <test-method status="FAIL" signature="RSAdata()[pri:1, instance:testpackagetwo.RSATest@68c4039c]" name="RSAdata" duration-ms="442756" started-at="2023-03-13T22:07:37Z" finished-at="2023-03-13T22:15:00Z">
+        <test-method status="FAIL" signature="RSAdata()[pri:1, instance:testpackagetwo.RSATest@68c4039c]" name="RSAdata" duration-ms="599237" started-at="2023-05-09T12:30:03Z" finished-at="2023-05-09T12:40:02Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='GridContractDoc_row_0']/td[2]/a"}
-  (Session info: MicrosoftEdge=110.0.1587.63)
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#Board1_CONTRACTS"}
+  (Session info: MicrosoftEdge=113.0.1774.35)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'GALGOTTO', ip: '192.168.22.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58018}, msedge: {msedgedriverVersion: 109.0.1518.55 (354a05280ee6..., userDataDir: C:\Users\tbutani\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d891cf8e7c90fbc3976fb3447b92c83
-*** Element info: {Using=xpath, value=//*[@id='GridContractDoc_row_0']/td[2]/a}]]>
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51564}, msedge: {msedgedriverVersion: 112.0.1722.34 (649b7446f96f..., userDataDir: C:\Users\tbutani\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e646430beefc408d068652d89be7451c
+*** Element info: {Using=id, value=Board1_CONTRACTS}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='GridContractDoc_row_0']/td[2]/a"}
-  (Session info: MicrosoftEdge=110.0.1587.63)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Board1_CONTRACTS"}
+  (Session info: MicrosoftEdge=113.0.1774.35)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'GALGOTTO', ip: '192.168.22.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.63, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58018}, msedge: {msedgedriverVersion: 109.0.1518.55 (354a05280ee6..., userDataDir: C:\Users\tbutani\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1d891cf8e7c90fbc3976fb3447b92c83
-*** Element info: {Using=xpath, value=//*[@id='GridContractDoc_row_0']/td[2]/a}
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51564}, msedge: {msedgedriverVersion: 112.0.1722.34 (649b7446f96f..., userDataDir: C:\Users\tbutani\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e646430beefc408d068652d89be7451c
+*** Element info: {Using=id, value=Board1_CONTRACTS}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -41,10 +41,10 @@ Session ID: 1d891cf8e7c90fbc3976fb3447b92c83
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at testpackagetwo.RSATest.RSAdata(RSATest.java:290)
+	at testpackagetwo.RSATest.RSAdata(RSATest.java:381)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

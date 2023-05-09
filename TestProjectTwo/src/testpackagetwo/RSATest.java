@@ -35,12 +35,12 @@ public class RSATest {
 		System.setProperty("webdriver.edge.driver", "C:\\Edgedriver\\msedgedriver.exe");
 		//WebDriverManager.edgedriver().setup();				
 		WebDriver Driver=new EdgeDriver();
-		Driver.get("http://10.30.139.92/PivotPointV2Web/Login.aspx");
+		Driver.get("http://10.30.139.80/PivotPointV2WebQC/Login.aspx");
 		Driver.manage().window().maximize();
 		Driver.manage().deleteAllCookies();
 		Driver.findElement(By.id("UserId")).sendKeys("rsaadmin");
 		//Driver.findElement(By.id("UserId")).sendKeys("1rpatel");
-		Driver.findElement(By.id("Password")).sendKeys("cateXX787!");
+		Driver.findElement(By.id("Password")).sendKeys("catex");
 		Driver.findElement(By.id("PIN")).sendKeys("0808");
 		Driver.findElement(By.id("LinkButton1")).click();
 		Thread.sleep(4800);
@@ -276,13 +276,13 @@ public class RSATest {
 		Actions act04=new Actions(Driver);
 		WebElement chooseFile01=Driver.findElement(By.id("UploadFile"));
 		act04.moveToElement(chooseFile01).click().perform();
-		Thread.sleep(5800);
+		Thread.sleep(8000);
 		uploadFile("C:\\Users\\tbutani\\Documents\\TestData\\Complete RSA end to end testingOne.xlsx");		
-		Thread.sleep(5800);
+		Thread.sleep(8000);
 		Driver.findElement(By.id("Upload")).click();		
-		Thread.sleep(11000);		
+		Thread.sleep(14000);		
 		Driver.switchTo().window(window4);
-		Thread.sleep(5800);		
+		Thread.sleep(8000);		
 		Driver.findElement(By.xpath("//*[@id='TblDocuments']/tbody/tr[2]/td/table/tbody/tr/td/table[2]/tbody/tr/td/div")).click();
 		Thread.sleep(9000);
 		
@@ -373,7 +373,7 @@ public class RSATest {
 		}catch(NoSuchElementException e){
 			e.printStackTrace();
 		}
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 							
 		//Contracts Tab - Copy Program
 		Driver.get("http://10.30.139.92/PivotPointV2Web/Modules/MainPage/DefaultDE.aspx");
